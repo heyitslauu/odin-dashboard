@@ -7,9 +7,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <title>Odin Dashboard</title>
 </head>
 <body>
+    <div class="container-dashboard">
+        <div class="dashboard-controls">
+            <div class="controls__header">
+                <span class="material-symbols-outlined icons">dashboard</span>
+                <h1>Dashboard</h1>
+            </div>
+            <div class="controls__features">
+                <div>
+                    <span class="material-symbols-outlined">home</span>
+                    Home
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                        Profile</div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        mode_comment
+                        </span>
+                        Messages</div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        history
+                        </span>
+                        History</div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        file_copy
+                        </span>
+                        Tasks</div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        diversity_3
+                        </span>
+                    Communities</div>
+            </div>
+            <div class="controls__settings">
+                <div>
+                    <span class="material-symbols-outlined">
+                        settings
+                        </span>
+                        Settings
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        help_center
+                        </span>
+                        Help Center
+                </div>
+                <div>
+                    <span class="material-symbols-outlined">
+                        verified_user
+                        </span>
+                        Privacy
+                </div>
+            </div>
+        </div>
+        <div class="dashboard-contents">
+            <div class="contents__header">
+                <div class="header__notification">
+                    <div class="notification_search">
+                        <span class="material-symbols-outlined">
+                            search
+                        </span>
+                        <input type="text" class="search__field">
+                    </div>
+                    <div class="notification_profile">
+                        <div class="profile_desc">
+                            <span class="material-symbols-outlined">
+                                notifications
+                                </span>
+                            <div class="profile__owner"></div>
+                            <div class="profile__name">Morgan Freenam</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__actions">
+                    <div class="actions__greeting">
+                        <div class="greeting__owner"></div>
+                        <div class="greeting__text">
+                            <div>Hi there,</div>
+                            <div class="owner_handle">Morgan Freenam (@FreenamMorg)</div>
+                        </div>
+                    </div>
+                    <div class="actions_controls">
+                        <button class="controls_button">new</button>
+                        <button class="controls_button">upload</button>
+                        <button class="controls_button">share</button>
+                    </div>
+                </div>
+            </div>
+            <div class="contents__feed">
+                <div class="feed__cards">3</div>
+                <div class="feed_announcements">4</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
